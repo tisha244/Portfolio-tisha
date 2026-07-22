@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#22153a"/>
+  <rect x="90" y="90" width="720" height="420" rx="36" fill="#f7e8f3"/>
+  <rect x="140" y="150" width="260" height="220" rx="28" fill="#ffb4d0"/>
+  <rect x="430" y="150" width="320" height="140" rx="28" fill="#7b5cff"/>
+  <rect x="430" y="310" width="320" height="120" rx="28" fill="#2f226d"/>
+  <circle cx="270" cy="260" r="72" fill="#fff7f7"/>
+  <path d="M180 420h300" stroke="#7d355f" stroke-width="14" stroke-linecap="round"/>
+  <path d="M510 360h180" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M510 392h140" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <text x="165" y="510" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#2d223a">The Glam House</text>
+</svg>

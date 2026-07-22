@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#161f2f"/>
+  <rect x="70" y="80" width="760" height="440" rx="36" fill="#f6efe6"/>
+  <rect x="110" y="120" width="300" height="180" rx="20" fill="#d98b5f"/>
+  <rect x="440" y="120" width="340" height="120" rx="20" fill="#4f6f6b"/>
+  <rect x="440" y="260" width="340" height="140" rx="20" fill="#b44d4d"/>
+  <circle cx="260" cy="210" r="70" fill="#ffeac7"/>
+  <path d="M175 340h310" stroke="#8b4b2a" stroke-width="16" stroke-linecap="round"/>
+  <path d="M515 380h190" stroke="#3b4f4e" stroke-width="14" stroke-linecap="round"/>
+  <path d="M515 418h150" stroke="#3b4f4e" stroke-width="14" stroke-linecap="round"/>
+  <text x="150" y="510" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#2b2b2b">Via Roma Kitchen</text>
+</svg>
