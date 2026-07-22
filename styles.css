@@ -253,15 +253,15 @@ main {
 }
 
 .image-one {
-  background-image: url('images/via-roma-hero.svg');
+  background-image: url('https://images.unsplash.com/photo-1496412705862-e0088f16f791?auto=format&fit=crop&w=900&q=80');
 }
 
 .image-two {
-  background-image: url('images/the-glam-hero.svg');
+  background-image: url('https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=900&q=80');
 }
 
 .image-three {
-  background-image: url('images/summit-hero.svg');
+  background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80');
 }
 
 .project-content {
