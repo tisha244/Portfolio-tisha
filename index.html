@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tisha Mungal | Web Designer & Frontend Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Tisha Mungal, a web designer and frontend developer crafting modern, conversion-focused websites."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">Tisha Mungal</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Web Designer • Frontend Developer • Brand Storyteller</p>
+          <h1>I build polished websites that help brands look credible, modern, and ready to grow.</h1>
+          <p class="lead">
+            I turn ideas into fast, elegant digital experiences that feel premium and perform beautifully on every screen.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">See my work</a>
+            <a class="button secondary" href="#contact" onclick="scrollToContact(event)">Let’s talk</a>
+          </div>
+          <ul class="highlights" aria-label="Core strengths">
+            <li>Responsive design</li>
+            <li>Clean UI systems</li>
+            <li>Conversion-focused layouts</li>
+            <li>Social media marketing</li>
+          </ul>
+        </div>
+        <div class="hero-card" aria-label="Portfolio snapshot">
+          <div class="card-top">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <div class="card-body">
+            <h2>Available for freelance and full-time roles</h2>
+            <p>Crafting user-friendly websites for hospitality, beauty, fitness, and lifestyle brands.</p>
+            <div class="metric-row">
+              <div>
+                <strong>3+</strong>
+                <span>Years of experience</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Custom builds</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">About me</p>
+          <h2>Designing websites that feel intentional, modern, and easy to trust.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I’m a multidisciplinary designer and frontend developer focused on creating websites that not only look sharp, but also help businesses connect with the right audience. My process blends strategy, visual storytelling, and clean development to produce sites that feel memorable and convert well.
+          </p>
+          <p>
+            Whether I’m shaping a hospitality brand, a beauty business, or a fitness company, I bring a thoughtful approach to layout, messaging, and user flow so every page feels clear and confident.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Featured projects</p>
+          <h2>Recent mock website concepts built to showcase strong visual direction and user experience.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image image-one"></div>
+            <div class="project-content">
+              <h3>Via Roma Kitchen</h3>
+              <p>Warm hospitality branding with a refined food experience and elegant browsing flow.</p>
+              <a href="https://example.com/via-roma-kitchen" target="_blank" rel="noreferrer">View mock site</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image image-two"></div>
+            <div class="project-content">
+              <h3>The Glam House</h3>
+              <p>A luxe beauty brand experience with rich visuals, clear service sections, and a polished booking feel.</p>
+              <a href="https://example.com/the-glam-house" target="_blank" rel="noreferrer">View mock site</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image image-three"></div>
+            <div class="project-content">
+              <h3>Summit Strength</h3>
+              <p>High-energy fitness branding with an inspiring layout, strong CTA structure, and modern motion cues.</p>
+              <a href="https://example.com/summit-strength" target="_blank" rel="noreferrer">View mock site</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Let’s work together</p>
+          <h2>Ready to bring a sharper online presence to your brand?</h2>
+        </div>
+        <div class="contact-card">
+          <p>Open to freelance opportunities, contract roles, and full-time web design positions.</p>
+          <a class="button primary" href="mailto:mtisha09@gmail.com">mtisha09@gmail.com</a>
+          <p class="contact-number">Phone: 914-708-6301</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Tisha Mungal. Built for standout digital experiences.</p>
+    </footer>
+
+    <script>
+      function scrollToContact(event) {
+        event.preventDefault();
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+          contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    </script>
+  </body>
+</html>
