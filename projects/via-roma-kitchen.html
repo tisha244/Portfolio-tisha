@@ -3,40 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Via Roma Kitchen | Mock Site</title>
+    <title>Via Roma Kitchen | Italian Restaurant</title>
     <link rel="stylesheet" href="../project-pages.css" />
   </head>
   <body>
     <div class="project-shell">
-      <div class="topbar">
-        <a class="back-link" href="../index.html#projects">← Back to portfolio</a>
-        <span class="badge">Hospitality • Brand Experience</span>
-      </div>
+      <header class="site-header">
+        <div class="site-logo">Via Roma Kitchen</div>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#events">Events</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
 
-      <section class="hero">
-        <div class="hero-card">
-          <h1>Via Roma Kitchen</h1>
-          <p>A warm, elegant concept for a modern Italian dining experience with premium visuals, soft tones, and a rich food-forward story.</p>
+      <section class="project-hero">
+        <div class="hero-copy">
+          <span class="badge">Italian dining • Hospitality</span>
+          <h1>Warm, elevated dining designed to feel intimate, memorable, and reservation-ready.</h1>
+          <p>Via Roma Kitchen brings seasonal Italian cuisine and chef-led hospitality into a luxury web experience with strong conversion paths.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Book a table</a>
+            <a class="button secondary" href="#menu">View the menu</a>
+          </div>
         </div>
-        <div class="image-card">
-          <img src="../images/via-roma-kitchen.svg" alt="Via Roma Kitchen preview" />
+        <div class="hero-image">
+          <img src="../images/via-roma-kitchen.svg" alt="Restaurant hero image" />
         </div>
       </section>
 
-      <section class="section-grid">
-        <div class="section-card">
-          <h2>What this mock site includes</h2>
-          <ul>
-            <li>Luxury hospitality layout</li>
-            <li>Menu and reservation focus</li>
-            <li>Refined visuals for a premium brand</li>
-          </ul>
-        </div>
-        <div class="section-card">
-          <h2>Why it works</h2>
-          <p>The page balances emotional storytelling with clear conversion points, giving the brand a polished and trustworthy presence.</p>
+      <section id="about" class="section-block">
+        <h2>About the restaurant</h2>
+        <p>Via Roma Kitchen is a modern Italian dining concept built around seasonal ingredients, signature cocktails, and an elevated guest experience.</p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>Seasonal menu</h3>
+            <p>Chef-driven dishes that change with the seasons, highlighting local produce and bold flavor profiles.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Warm hospitality</h3>
+            <p>The site emphasizes service, ambiance, and a welcoming table experience from the first interaction.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Booking-first experience</h3>
+            <p>Prominent calls to action keep reservations front and center on every section of the site.</p>
+          </div>
         </div>
       </section>
+
+      <section id="menu" class="section-block">
+        <h2>Menu highlights</h2>
+        <p>A sophisticated menu section showcases star dishes with clean, appetizing layouts that feel like a real restaurant website.</p>
+        <div class="section-grid">
+          <div class="section-card">
+            <h3>Starters</h3>
+            <ul>
+              <li>Truffle burrata with black garlic</li>
+              <li>Charred octopus with salsa verde</li>
+              <li>Crostini with ricotta and lemon zest</li>
+            </ul>
+          </div>
+          <div class="section-card">
+            <h3>Main courses</h3>
+            <ul>
+              <li>House-made tagliatelle with ragu</li>
+              <li>Wood-fired branzino with herbs</li>
+              <li>Porcini short rib agnolotti</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="events" class="section-block">
+        <h2>Private events</h2>
+        <p>This page includes a polished events section for private dining, celebrations, and group bookings.</p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>Chef’s table</h3>
+            <p>Exclusive tasting menus for intimate gatherings and special celebrations.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Group dining</h3>
+            <p>Private event booking with curated menus and personalized service.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Event inquiry</h3>
+            <p>Clients can request availability, menu options, and custom event details easily.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-block cta-panel">
+        <h2>Ready to reserve?</h2>
+        <p>Visitors can book a table or inquire about private dining directly from the site.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:reservations@viaroma.example">Email reservations</a>
+          <a class="button secondary" href="tel:+19147086301">Call the restaurant</a>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div>© 2026 Via Roma Kitchen</div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

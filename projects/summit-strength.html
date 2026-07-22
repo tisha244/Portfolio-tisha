@@ -3,40 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Summit Strength | Mock Site</title>
+    <title>Summit Strength | Fitness Studio</title>
     <link rel="stylesheet" href="../project-pages.css" />
   </head>
   <body>
     <div class="project-shell">
-      <div class="topbar">
-        <a class="back-link" href="../index.html#projects">← Back to portfolio</a>
-        <span class="badge">Fitness • Performance</span>
-      </div>
+      <header class="site-header">
+        <div class="site-logo">Summit Strength</div>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#programs">Programs</a>
+          <a href="#coaches">Coaches</a>
+          <a href="#join">Join</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
 
-      <section class="hero">
-        <div class="hero-card">
-          <h1>Summit Strength</h1>
-          <p>An energetic fitness concept built to feel high-performance and motivating, with bold sections and clear action prompts.</p>
+      <section class="project-hero">
+        <div class="hero-copy">
+          <span class="badge">Fitness • Performance</span>
+          <h1>Strength training built to help members feel powerful, accountable, and ready to move.</h1>
+          <p>Summit Strength presents a real fitness studio homepage with strong program positioning, coaching, and a clear call to action.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#join">Join now</a>
+            <a class="button secondary" href="#programs">View programs</a>
+          </div>
         </div>
-        <div class="image-card">
-          <img src="../images/summit-strength.svg" alt="Summit Strength preview" />
+        <div class="hero-image">
+          <img src="../images/summit-strength.svg" alt="Fitness studio hero image" />
         </div>
       </section>
 
-      <section class="section-grid">
-        <div class="section-card">
-          <h2>What this mock site includes</h2>
-          <ul>
-            <li>High-energy fitness experience</li>
-            <li>Strong call-to-action sections</li>
-            <li>Modern and athletic visual identity</li>
-          </ul>
-        </div>
-        <div class="section-card">
-          <h2>Why it works</h2>
-          <p>It blends motion, energy, and clarity to make the brand feel both powerful and approachable.</p>
+      <section id="programs" class="section-block">
+        <h2>Program paths</h2>
+        <p>Clear program categories help visitors choose the right training track in one glance.</p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>Strength Systems</h3>
+            <p>Progressive lifting plans designed for consistent gains and better form.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Group Training</h3>
+            <p>Motivating classes focused on community energy, support, and accountability.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Recovery Support</h3>
+            <p>Nutrition and mobility coaching to help members recover stronger.</p>
+          </div>
         </div>
       </section>
+
+      <section id="coaches" class="section-block">
+        <h2>Meet the team</h2>
+        <p>The coaching section highlights expertise and the human side of the studio brand.</p>
+        <div class="section-grid">
+          <div class="section-card">
+            <h3>Coach Avery</h3>
+            <p>Strength coach with a performance-first approach and personalized programming.</p>
+          </div>
+          <div class="section-card">
+            <h3>Coach Jordan</h3>
+            <p>Community coach who keeps sessions motivating, safe, and effective.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="join" class="section-block cta-panel">
+        <h2>Ready to join?</h2>
+        <p>Visitors can contact the studio directly to book a trial session or inquire about membership.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:hello@summitstrength.example">Email the studio</a>
+          <a class="button secondary" href="tel:+19147086301">Call the studio</a>
+        </div>
+      </section>
+
+      <section id="contact" class="section-block">
+        <h2>Contact</h2>
+        <div class="section-grid">
+          <div class="section-card">
+            <h3>Email</h3>
+            <p>hello@summitstrength.example</p>
+          </div>
+          <div class="section-card">
+            <h3>Phone</h3>
+            <p>+1 (914) 708-6301</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div>© 2026 Summit Strength</div>
+        <div class="footer-links">
+          <a href="#programs">Programs</a>
+          <a href="#coaches">Coaches</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

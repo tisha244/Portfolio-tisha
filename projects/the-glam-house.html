@@ -3,40 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Glam House | Mock Site</title>
+    <title>The Glam House | Beauty Studio</title>
     <link rel="stylesheet" href="../project-pages.css" />
   </head>
   <body>
     <div class="project-shell">
-      <div class="topbar">
-        <a class="back-link" href="../index.html#projects">← Back to portfolio</a>
-        <span class="badge">Beauty • Luxury Brand</span>
-      </div>
+      <header class="site-header">
+        <div class="site-logo">The Glam House</div>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#book">Book</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
 
-      <section class="hero">
-        <div class="hero-card">
-          <h1>The Glam House</h1>
-          <p>A polished beauty brand concept with elevated visuals, service storytelling, and a strong booking-first experience.</p>
+      <section class="project-hero">
+        <div class="hero-copy">
+          <span class="badge">Beauty studio • Luxury brand</span>
+          <h1>Premium beauty services designed to feel polished, calm, and easy to book.</h1>
+          <p>The Glam House presents an editorial beauty site experience with service clarity, premium booking, and soft visual direction.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#book">Book now</a>
+            <a class="button secondary" href="#services">View services</a>
+          </div>
         </div>
-        <div class="image-card">
-          <img src="../images/the-glam-house.svg" alt="The Glam House preview" />
+        <div class="hero-image">
+          <img src="../images/the-glam-house.svg" alt="Beauty studio hero image" />
         </div>
       </section>
 
-      <section class="section-grid">
-        <div class="section-card">
-          <h2>What this mock site includes</h2>
-          <ul>
-            <li>Luxury beauty brand storytelling</li>
-            <li>Service highlights and offers</li>
-            <li>Soft, modern visual direction</li>
-          </ul>
-        </div>
-        <div class="section-card">
-          <h2>Why it works</h2>
-          <p>The layout is designed to feel aspirational while guiding visitors toward booking and exploring services effortlessly.</p>
+      <section id="services" class="section-block">
+        <h2>Signature services</h2>
+        <p>The site showcases luxurious beauty services with a layout that feels like an actual studio homepage.</p>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3>Bridal beauty</h3>
+            <p>Bespoke wedding hair and makeup packages for an editorial, camera-ready experience.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Skin glow</h3>
+            <p>Facials, treatments, and prep rituals designed to create luminous results.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Hair & makeup</h3>
+            <p>Professional styling for portraits, events, and special occasions.</p>
+          </div>
         </div>
       </section>
+
+      <section id="about" class="section-block">
+        <h2>Studio experience</h2>
+        <p>Highlights the premium brand story, atmosphere, and the easy booking process for clients.</p>
+        <div class="section-grid">
+          <div class="section-card">
+            <h3>Editorial visuals</h3>
+            <p>Soft gradients, refined spacing, and polished typography create a premium look.</p>
+          </div>
+          <div class="section-card">
+            <h3>Service clarity</h3>
+            <p>Each treatment is described simply so clients can find the right option quickly.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="book" class="section-block cta-panel">
+        <h2>Book a session</h2>
+        <p>Visitors can contact the studio directly to schedule beauty services or request an appointment.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:hello@glamhouse.example">Email the studio</a>
+          <a class="button secondary" href="tel:+19147086301">Call the studio</a>
+        </div>
+      </section>
+
+      <section id="contact" class="section-block">
+        <h2>Contact</h2>
+        <div class="section-grid">
+          <div class="section-card">
+            <h3>Email</h3>
+            <p>hello@glamhouse.example</p>
+          </div>
+          <div class="section-card">
+            <h3>Phone</h3>
+            <p>+1 (914) 708-6301</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div>© 2026 The Glam House</div>
+        <div class="footer-links">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
