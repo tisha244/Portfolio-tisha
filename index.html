@@ -17,13 +17,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260722-2" />
+    <link rel="stylesheet" href="styles.css?v=20260723-1" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#home">Tisha Mungal</a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#about">About</a>
+        <a href="#services">Services</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -32,64 +33,130 @@
     <main id="home">
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Web Designer • Frontend Developer • Brand Storyteller</p>
-          <h1>I build polished websites that help brands look credible, modern, and ready to grow.</h1>
-          <p class="lead">
-            I turn ideas into fast, elegant digital experiences that feel premium and perform beautifully on every screen.
-          </p>
+          <p class="eyebrow">Web Designer • Frontend Developer</p>
+          <h1>I help boutique brands in hospitality, beauty, and wellness launch websites that feel premium, polished, and personal.</h1>
+          <p class="lead">I’m Tisha, a designer and frontend developer near NYC who builds thoughtful digital experiences for brands with a clear visual voice and strong conversion flow.</p>
+
           <div class="hero-actions">
             <a class="button primary" href="#projects">See my work</a>
-            <a class="button secondary" href="#contact" onclick="scrollToContact(event)">Let’s talk</a>
+            <a class="button secondary" href="#contact">Book a discovery call</a>
           </div>
-          <ul class="highlights" aria-label="Core strengths">
-            <li>Responsive design</li>
-            <li>Clean UI systems</li>
-            <li>Conversion-focused layouts</li>
-            <li>Social media marketing</li>
-          </ul>
+
+          <div class="hero-meta">
+            <div>
+              <strong>20+</strong>
+              <span>Design launches</span>
+            </div>
+            <div>
+              <strong>3x</strong>
+              <span>Faster page speed</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Custom websites</span>
+            </div>
+          </div>
+
+          <div class="skills-list" aria-label="Core strengths">
+            <span>Responsive design</span>
+            <span>Brand systems</span>
+            <span>Conversion copy</span>
+            <span>Fast build</span>
+          </div>
         </div>
-        <div class="hero-card" aria-label="Portfolio snapshot">
-          <div class="card-top">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+
+        <aside class="hero-panel" aria-label="Portfolio highlights">
+          <div class="panel-top">
+            <span class="panel-dot"></span>
+            <span class="panel-dot"></span>
+            <span class="panel-dot"></span>
           </div>
-          <div class="card-body">
-            <h2>Available for freelance and full-time roles</h2>
-            <p>Crafting user-friendly websites for hospitality, beauty, fitness, and lifestyle brands.</p>
-            <div class="metric-row">
+          <div class="panel-body">
+            <h2>Premium sites designed for growth</h2>
+            <p>I work with boutique business owners who want a standout website that feels warm, professional, and easy to manage.</p>
+            <div class="panel-list">
               <div>
-                <strong>3+</strong>
-                <span>Years of experience</span>
+                <strong>Brand-led pages</strong>
+                <p>Visual systems that look refined and feel cohesive.</p>
               </div>
               <div>
-                <strong>100%</strong>
-                <span>Custom builds</span>
+                <strong>Clear conversion paths</strong>
+                <p>Thoughtful flows that guide visitors to action.</p>
               </div>
             </div>
           </div>
-        </div>
+        </aside>
       </section>
 
       <section id="about" class="section">
         <div class="section-heading">
           <p class="eyebrow">About me</p>
-          <h2>Designing websites that feel intentional, modern, and easy to trust.</h2>
+          <h2>I design websites with strong visuals, clear messaging, and fast performance.</h2>
         </div>
         <div class="about-grid">
-          <p>
-            I’m a multidisciplinary designer and frontend developer focused on creating websites that not only look sharp, but also help businesses connect with the right audience. My process blends strategy, visual storytelling, and clean development to produce sites that feel memorable and convert well.
-          </p>
-          <p>
-            Whether I’m shaping a hospitality brand, a beauty business, or a fitness company, I bring a thoughtful approach to layout, messaging, and user flow so every page feels clear and confident.
-          </p>
+          <div>
+            <p>I’m Tisha, a multidisciplinary designer and frontend developer based near New York City. I love helping boutique brands in hospitality, beauty, wellness, and lifestyle feel confident online through polished, intentional websites.</p>
+            <p>My process blends visual storytelling, clean code, and clear user flows so each website is both beautiful and easy for clients to maintain after launch.</p>
+          </div>
+          <ul class="about-values">
+            <li>Brand-first design with personality</li>
+            <li>Mobile-friendly performance</li>
+            <li>Easy content updates</li>
+            <li>Supportive launch guidance</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">What I offer</p>
+          <h2>High-impact websites with refined design, frontend polish, and brand clarity.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Website design</h3>
+            <p>Elegant, conversion-driven layouts with strong typography, spacing, and visual hierarchy.</p>
+          </article>
+          <article class="service-card">
+            <h3>Frontend development</h3>
+            <p>Responsive, accessible builds with smooth interactions and fast load performance.</p>
+          </article>
+          <article class="service-card">
+            <h3>Brand direction</h3>
+            <p>Homepage concepts and visual systems that make your brand feel premium and cohesive.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section creative-showcase">
+        <div class="section-heading">
+          <p class="eyebrow">Creative visuals</p>
+          <h2>Images, motion, and design direction that bring each concept to life.</h2>
+        </div>
+        <div class="creative-grid">
+          <article class="creative-card">
+            <img src="images/via-roma-hero.svg" alt="Via Roma Kitchen concept illustration" />
+            <p>Warm restaurant visuals shaped for hospitality storytelling.</p>
+          </article>
+          <article class="creative-card">
+            <img src="images/the-glam-hero.svg" alt="The Glam House concept illustration" />
+            <p>Beauty brand imagery with editorial polish and luxe detail.</p>
+          </article>
+          <article class="creative-card">
+            <img src="images/summit-hero.svg" alt="Summit Strength concept illustration" />
+            <p>Fitness branding that feels energetic, modern, and motivating.</p>
+          </article>
+          <article class="creative-card">
+            <img src="https://media.giphy.com/media/3o7WIx8Lj2pmmFAdnO/giphy.gif" alt="Animated visual concept" />
+            <p>Animated motion explores a dynamic digital rhythm for brand storytelling.</p>
+          </article>
         </div>
       </section>
 
       <section id="projects" class="section">
         <div class="section-heading">
           <p class="eyebrow">Featured projects</p>
-          <h2>Recent mock website concepts built to showcase strong visual direction and user experience.</h2>
+          <h2>Recent concepts that showcase refined direction and strong user experience.</h2>
         </div>
         <div class="project-grid">
           <article class="project-card">
@@ -97,7 +164,7 @@
             <div class="project-content">
               <h3>Via Roma Kitchen</h3>
               <p>Warm hospitality branding with a refined food experience and elegant browsing flow.</p>
-<a href="projects/via-roma-kitchen.html" target="_blank" rel="noopener noreferrer">View mock site</a>
+              <a class="project-link" href="projects/via-roma-kitchen.html" target="_blank" rel="noopener noreferrer">View mock site</a>
             </div>
           </article>
 
@@ -106,7 +173,7 @@
             <div class="project-content">
               <h3>The Glam House</h3>
               <p>A luxe beauty brand experience with rich visuals, clear service sections, and a polished booking feel.</p>
-              <a href="projects/the-glam-house.html" target="_blank" rel="noopener noreferrer">View mock site</a>
+              <a class="project-link" href="projects/the-glam-house.html" target="_blank" rel="noopener noreferrer">View mock site</a>
             </div>
           </article>
 
@@ -115,7 +182,7 @@
             <div class="project-content">
               <h3>Summit Strength</h3>
               <p>High-energy fitness branding with an inspiring layout, strong CTA structure, and modern motion cues.</p>
-              <a href="projects/summit-strength.html" target="_blank" rel="noopener noreferrer">View mock site</a>
+              <a class="project-link" href="projects/summit-strength.html" target="_blank" rel="noopener noreferrer">View mock site</a>
             </div>
           </article>
         </div>
@@ -127,25 +194,26 @@
           <h2>Ready to bring a sharper online presence to your brand?</h2>
         </div>
         <div class="contact-card">
-          <p>Open to freelance opportunities, contract roles, and full-time web design positions.</p>
-          <a class="button primary" href="mailto:mtisha09@gmail.com">mtisha09@gmail.com</a>
+          <p>Open to freelance opportunities, contract projects, and full-site design work.</p>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:mtisha09@gmail.com">Email me</a>
+            <a
+              class="button secondary"
+              href="https://www.instagram.com/designbytisha_/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram @designbytisha_
+            </a>
+          </div>
           <p class="contact-number">Phone: 914-708-6301</p>
+          <p class="contact-instagram">Instagram: <a href="https://www.instagram.com/designbytisha_/" target="_blank" rel="noopener noreferrer">@designbytisha_</a></p>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© 2026 Tisha Mungal. Built for standout digital experiences.</p>
+      <p>© 2026 Tisha Mungal — Built for premium digital experiences.</p>
     </footer>
-
-    <script>
-      function scrollToContact(event) {
-        event.preventDefault();
-        const contactSection = document.getElementById('contact');
-        if (contactSection) {
-          contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      }
-    </script>
   </body>
 </html>
